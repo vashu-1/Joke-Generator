@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to left,
+    rgb(183, 53, 153),
+    rgb(151, 53, 183)
+  );
+  min-height: 100vh;
+}
+.wrapper {
+  width: 80vh;
+  background-color: #000;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+.wrapper span {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+}
+.wrapper p {
+  color: #fff;
+  text-align: justify;
+  padding: 2rem;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  line-height: 1.4rem;
+  opacity: 1;
+}
+
+.wrapper button {
+  color: #000;
+  background-color: #fab22e;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  display: block;
+  margin: 20px auto;
+}
